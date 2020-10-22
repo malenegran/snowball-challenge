@@ -73,3 +73,18 @@ header p {
   width: 33%;
   height: 200px;
 }
+
+footer {
+  padding: 10px;
+  text-align: center;
+  color: #505050;
+}
+
+hr {
+  margin: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+/* fiks bilde senter overskrift senter i hero
+endre description, krigsherjede områder, */
