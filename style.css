@@ -29,7 +29,7 @@ header p {
 
 .hero {
   height: 50%;
-  background-image: url("img/drone.jpg");
+  background-image: url("images/drone.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
