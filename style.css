@@ -29,7 +29,7 @@ header p {
 
 .hero {
   height: 50%;
-  background-image: url("img/drone.jpg"); /*https://topdr.one/wp-content/uploads/2019/01/Food-delivery-service-and-app-drone-food-delivery-1024x512.jpg*/
+  background-image: url("images/drone.jpg"); /*https://topdr.one/wp-content/uploads/2019/01/Food-delivery-service-and-app-drone-food-delivery-1024x512.jpg*/
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -37,7 +37,6 @@ header p {
 }
 
 .avatar {
-  vertical-align: middle;
   width: 100px;
   height: 100px;
   border-radius: 50%;
