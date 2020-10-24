@@ -14,8 +14,11 @@ body {
 }
 
 header {
+  width: 100vw;
   padding: 30px;
+  background-color: #CFD8E7;
   text-align: center;
+  color: #1F2737;
 }
 
 header h1 {
@@ -23,23 +26,34 @@ header h1 {
   letter-spacing: 5px;
 }
 
-header p {
+header h2 {
   letter-spacing: 2px;
 }
 
-.hero {
+/* .hero {
   height: 50%;
-  background-image: url("images/drone.jpg"); /*https://topdr.one/wp-content/uploads/2019/01/Food-delivery-service-and-app-drone-food-delivery-1024x512.jpg*/
+  background-image: url('images/drone.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+} */
+
+.hero {
+  width: 100vw;
+  height: 80vh;
+  background-image: url('images/drone.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .avatar {
   width: 100px;
   height: 100px;
   border-radius: 50%;
+  border: 2px solid #CFD8E7;
   object-fit: cover;
   display: block;
   margin-left: auto;
@@ -47,9 +61,9 @@ header p {
 }
 
 .container {
-  width: 100%;
+  width: 100vw;
   height: 400px;
-  background-color: #b8d5b8;
+  /* background-color: #b8d5b8; */
   padding-top: 30px;
   padding-left: 15px;
   padding-right: 15px;
@@ -75,9 +89,10 @@ header p {
 }
 
 footer {
-  padding: 10px;
+  background-color: #1F2737;
+  padding: 20px;
   text-align: center;
-  color: #505050;
+  color: #CFD8E7;
 }
 
 hr {
