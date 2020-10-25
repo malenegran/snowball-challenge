@@ -24,10 +24,11 @@ header {
 header h1 {
   font-size: 4em;
   letter-spacing: 5px;
+  transition: 0.5s;
 }
 
 header h2 {
-  letter-spacing: 2px;
+  letter-spacing: 3px;
 }
 
 /* .hero {
@@ -38,7 +39,7 @@ header h2 {
   background-size: cover;
   position: relative;
 } */
-
+      /* Testet noe */
 .hero {
   width: 100vw;
   height: 80vh;
@@ -47,45 +48,50 @@ header h2 {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  /* transition: 0.3s; */
 }
 
 .avatar {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  border: 2px solid #CFD8E7;
   object-fit: cover;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
 }
 
-.container {
+/* .container {
   width: 100vw;
   height: 400px;
-  /* background-color: #b8d5b8; */
+  background-color: #b8d5b8;
   padding-top: 30px;
   padding-left: 15px;
   padding-right: 15px;
   text-align: center;
+} */
+      /* Whatcha think?? */
+.container {
+  padding: 15px;
 }
 
-.left-box {
-  float: left;
-  width: 33%;
-  height: 200px;
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-.mid-box {
+.box {
   float: left;
-  width: 33%;
-  height: 200px;
+  width: 33.33%;
+  padding: 30px;
 }
 
-.right-box {
-  float: left;
-  width: 33%;
-  height: 200px;
+.box h1 {
+  margin: 15px;
+  text-align: center;
+  letter-spacing: 5px;
 }
 
 footer {
@@ -99,6 +105,28 @@ hr {
   margin: 10px;
   margin-left: 50px;
   margin-right: 50px;
+}
+
+@media screen and (max-width: 1000px) {
+  .hero {
+    height: 30vh;
+    /* transition: 0.3s; */
+    background-position: 50% -200px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .box {
+    width: 100%;
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  header h1 {
+    font-size: 3em;
+    transition: 0.5s;
+  }
 }
 
 /* fiks bilde senter overskrift senter i hero
