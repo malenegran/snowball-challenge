@@ -14,7 +14,7 @@ body {
 }
 
 header {
-  width: 100vw;
+  width: 100%;
   padding: 30px;
   background-color: #cfd8e7;
   text-align: center;
@@ -87,7 +87,7 @@ hr {
   margin-right: 50px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   .hero {
     height: 30vh;
   }
@@ -114,4 +114,4 @@ hr {
   }
 }
 
-/* Fiks side scroll og bilde*/
+/* Fiks side scroll*/
