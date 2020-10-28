@@ -31,24 +31,14 @@ header h2 {
   letter-spacing: 3px;
 }
 
-/* .hero {
-  height: 50%;
-  background-image: url('images/drone.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-} */
-/* Testet noe */
 .hero {
   width: 100%;
   height: 80vh;
   background-image: url("images/drone.jpg");
-  background-size: cover;
+  background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  /* transition: 0.3s; */
+  background-attachment: sticky;
 }
 
 .avatar {
@@ -62,16 +52,6 @@ header h2 {
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
 }
 
-/* .container {
-  width: 100vw;
-  height: 400px;
-  background-color: #b8d5b8;
-  padding-top: 30px;
-  padding-left: 15px;
-  padding-right: 15px;
-  text-align: center;
-} */
-/* Whatcha think?? */
 .container {
   padding: 15px;
 }
@@ -110,11 +90,8 @@ hr {
 @media screen and (max-width: 1000px) {
   .hero {
     height: 30vh;
-    /* transition: 0.3s; */
-    background-position: 50% -200px;
-    background-image: url(images/droneMindre.jpg);
-    width: 100%;
   }
+
   .box h1 {
     margin: 15px;
     margin-left: 0;
@@ -136,3 +113,5 @@ hr {
     transition: 0.5s;
   }
 }
+
+/* Fiks side scroll og bilde*/
