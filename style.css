@@ -39,6 +39,8 @@ header h2 {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: sticky;
+  transition: 0.3s;
+  transform: translateZ(0);
 }
 
 .avatar {
@@ -89,7 +91,9 @@ hr {
 
 @media screen and (max-width: 1200px) {
   .hero {
-    height: 30vh;
+    height: 35vh;
+    transition: 0.3s;
+    transform: translateZ(0);
   }
 
   .box h1 {
