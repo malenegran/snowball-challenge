@@ -115,6 +115,12 @@ hr {
     background-image: url(images/droneMindre.jpg);
     width: 100%;
   }
+  .box h1 {
+    margin: 15px;
+    margin-left: 0;
+    text-align: left;
+    letter-spacing: 5px;
+  }
 }
 
 @media screen and (max-width: 600px) {
