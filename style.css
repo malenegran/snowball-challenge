@@ -113,6 +113,12 @@ hr {
     /* transition: 0.3s; */
     background-position: 50% -200px;
   }
+  .box h1 {
+    margin: 15px;
+    margin-left: 0;
+    text-align: left;
+    letter-spacing: 5px;
+  }
 }
 
 @media screen and (max-width: 600px) {
