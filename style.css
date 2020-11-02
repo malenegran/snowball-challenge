@@ -15,11 +15,11 @@ body {
 }
 
 header {
-  width: 100vw;
+  width: 100%;
   padding: 30px;
-  background-color: #CFD8E7;
+  background-color: #cfd8e7;
   text-align: center;
-  color: #1F2737;
+  color: #1f2737;
 }
 
 header h1 {
@@ -32,24 +32,16 @@ header h2 {
   letter-spacing: 3px;
 }
 
-/* .hero {
-  height: 50%;
-  background-image: url('images/drone.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-} */
-      /* Testet noe */
 .hero {
-  width: 100vw;
+  width: 100%;
   height: 80vh;
-  background-image: url('images/drone.jpg');
-  background-size: cover;
+  background-image: url("images/drone.jpg");
+  background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  /* transition: 0.3s; */
+  background-attachment: sticky;
+  transition: 0.3s;
+  transform: translateZ(0);
 }
 
 .avatar {
@@ -63,16 +55,6 @@ header h2 {
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
 }
 
-/* .container {
-  width: 100vw;
-  height: 400px;
-  background-color: #b8d5b8;
-  padding-top: 30px;
-  padding-left: 15px;
-  padding-right: 15px;
-  text-align: center;
-} */
-      /* Whatcha think?? */
 .container {
   padding: 15px;
 }
@@ -96,10 +78,10 @@ header h2 {
 }
 
 footer {
-  background-color: #1F2737;
+  background-color: #1f2737;
   padding: 20px;
   text-align: center;
-  color: #CFD8E7;
+  color: #cfd8e7;
 }
 
 hr {
@@ -108,11 +90,18 @@ hr {
   margin-right: 50px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   .hero {
-    height: 30vh;
-    /* transition: 0.3s; */
-    background-position: 50% -200px;
+    height: 35vh;
+    transition: 0.3s;
+    transform: translateZ(0);
+  }
+
+  .box h1 {
+    margin: 15px;
+    margin-left: 0;
+    text-align: left;
+    letter-spacing: 5px;
   }
 }
 
