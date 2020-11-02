@@ -65,10 +65,20 @@ header h2 {
   clear: both;
 }
 
-.box {
+/* .box {
   float: left;
   width: 33.33%;
   padding: 30px;
+} */ /*Før grå bokser */
+
+.box {
+  float: left;
+  width: 33%;
+  height: 300px;
+  padding: 30px;
+  background-color: #808080;
+  margin: 3px;
+  color: white;
 }
 
 .box h1 {
