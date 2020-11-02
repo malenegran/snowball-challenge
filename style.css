@@ -35,6 +35,7 @@ header h2 {
 .hero {
   width: 100%;
   height: 80vh;
+  max-height: 80vh;
   background-image: url("images/drone.jpg");
   background-size: 100%;
   background-position: center;
@@ -57,6 +58,7 @@ header h2 {
 
 .container {
   padding: 15px;
+  align-items: center;
 }
 
 .container:after {
@@ -73,11 +75,11 @@ header h2 {
 
 .box {
   float: left;
-  width: 33%;
-  height: 300px;
+  width: 32.2%;
+  height: 350px;
   padding: 30px;
   background-color: lightgrey;
-  margin: 3px;
+  margin: 0.5%;
 }
 
 .box h1 {
@@ -99,12 +101,23 @@ hr {
   margin-right: 50px;
 }
 
+.invisible {
+  display: none;
+}
+
+.frontpicture {
+  width: 100%;
+}
+
 @media screen and (max-width: 1200px) {
+ /* #wrapper {
+    max-height: 35%;
+  } */
   .hero {
     height: 35vh;
     transition: 0.3s;
     transform: translateZ(0);
-  }
+  } 
 
   .box h1 {
     margin: 15px;
@@ -114,10 +127,18 @@ hr {
   }
 }
 
-@media screen and (max-width: 600px) {
+/*@media screen and (max-width: 600px) {
   .box {
     width: 100%;
     padding: 15px;
+  }
+}*/
+
+@media screen and (max-width: 1100px) {
+  .box {
+    width: 100%;
+    padding: 15px;
+    display: block;
   }
 }
 
