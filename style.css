@@ -7,6 +7,7 @@
 body,
 html {
   height: 100%;
+overflow-x: hidden; /*få vekk horisontal scroll?*/
 }
 
 body {
@@ -126,6 +127,13 @@ hr {
   header h1 {
     font-size: 3em;
     transition: 0.5s;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    max-width: 750px;
+    margin: 0 auto;
   }
 }
 
