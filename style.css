@@ -7,7 +7,7 @@
 body,
 html {
   height: 100%;
-overflow-x: hidden; /*få vekk horisontal scroll?*/
+  overflow-x: hidden;
 }
 
 body {
@@ -67,18 +67,12 @@ header h2 {
   clear: both;
 }
 
-/* .box {
-  float: left;
-  width: 33.33%;
-  padding: 30px;
-} */ /*Før grå bokser */
-
 .box {
   float: left;
   width: 32.2%;
   height: 350px;
   padding: 30px;
-  background-color: lightgrey;
+  background-color: #cfd8e7;
   margin: 0.5%;
 }
 
@@ -101,18 +95,11 @@ hr {
   margin-right: 50px;
 }
 
-.invisible {
-  display: none;
-}
-
 .frontpicture {
   width: 100%;
 }
 
 @media screen and (max-width: 1200px) {
- /* #wrapper {
-    max-height: 35%;
-  } */
   .hero {
     height: 35vh;
     transition: 0.3s;
@@ -126,13 +113,6 @@ hr {
     letter-spacing: 5px;
   }
 }
-
-/*@media screen and (max-width: 600px) {
-  .box {
-    width: 100%;
-    padding: 15px;
-  }
-}*/
 
 @media screen and (max-width: 1100px) {
   .box {
@@ -155,6 +135,3 @@ hr {
     margin: 0 auto;
   }
 }
-
-/* fiks bilde senter overskrift senter i hero
-endre description, krigsherjede områder, */
